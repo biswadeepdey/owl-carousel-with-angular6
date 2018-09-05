@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+.slider-image-section .owl-stage-outer, .slider-image-section .owl-stage, .slider-image-section .owl-item, .slider-image-section .owl-item .item, .slider-image-section .owl-item .item img{
+    height: 480px;
+}
+
+.owl-nav{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.owl-nav button {
+    position: absolute;
+    outline: none;
+}
+
+.owl-prev{
+    left: 20px;
+}
+
+.owl-prev.disabled span{
+    color: #a78c8cbd;
+}
+
+.owl-next{
+    right: 20px;
+}
+
+.owl-next.disabled span{
+    color: #a78c8cbd;
+}
+
+.owl-nav button span{
+    line-height: 0px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+}

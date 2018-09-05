@@ -1,0 +1,30 @@
+<div class="owl-carousel-holder">
+    <div class="slider-image-section">
+        <h2>Banner Slider Using Owl Casrousel</h2>
+        <owl-carousel
+            [options]="mySlideOptions"
+            [items]="images"
+            [carouselClasses]="['owl-theme', 'sliding']"
+        >
+            <div class="item" *ngFor="let image of mySlideImages;let i = index">
+                <div>
+                    <img src={{image}}/>
+                </div>
+            </div>
+        </owl-carousel>
+    </div>
+    <hr/>
+    <div class="carousel-section">
+            <h2>Image Carousel Using Owl Casrousel</h2>
+            <owl-carousel
+                [options]="myCarouselOptions"
+                [items]="images"
+            >
+                <div class="item" *ngFor="let image of myCarouselImages;let i = index">
+                    <div>
+                        <img src={{image}}/>
+                    </div>
+                </div>
+            </owl-carousel>
+    </div>
+</div>
